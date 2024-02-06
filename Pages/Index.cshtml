@@ -1,0 +1,329 @@
+﻿@page
+@using System.Text.Json
+@using CS04_Coding_Assignment.Models
+
+@model IndexModel
+
+@{
+    ViewData["Title"] = "Yout Todo List";
+
+    var serializeOptions = new JsonSerializerOptions
+    {
+        PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+        WriteIndented = false
+    };
+
+}
+
+<div class="container py-4 mb-4">
+
+    <div class="p-4 bg-body-tertiary rounded-3">
+
+        <div class="container-fluid py-5  text-center">
+            <h1 class="display-5 fw-bold">Your Todo List</h1>
+            <p class="fs-4">Manage your todo list quickly and easily. Mark them complete as you go and never miss a thing!</p>
+        </div>
+
+    </div>
+
+    <div id="todoList">
+
+        <nav class="nav nav-tabs nav-fill mb-4" v-if="todoList.length > 0">
+            <button type="button" class="nav-link" :class="{ active: !displayCompleted }" v-on:click="displayCompleted = false">Active <span class="badge badge-light">{{activeTodos.length}}</span></button>
+            <button type="button" class="nav-link" :class="{ active: displayCompleted }"  v-on:click="displayCompleted = true">Completed <span class="badge badge-light">{{completedTodos.length}}</span></button>
+        </nav>
+
+        <div class="row align-items-md-stretch"  v-cloak>
+
+            <div class="col-md-12">
+
+                <ul style="list-style-type: none;" v-if="getTodos.length > 0">
+
+                    <li v-for="(todo, index) in getTodos.slice().reverse()" :key="todo.id" class="h-100 p-3 bg-body-tertiary border rounded-3 mb-3">
+
+                        <h3>{{todo.title}}</h3>
+
+                        <span class="fs-4">{{todo.description}}</span>
+
+                        <div class="mt-3">
+                            <button type="button" class="btn btn-secondary" v-if="!todo.isComplete" v-on:click="MarkAsComplete(todo)">Mark Complete</button>
+                            <button type="button" class="btn btn-secondary" v-on:click="EditTodo(todo)">Edit</button>
+                            <button type="button" class="btn btn-secondary" v-on:click="DeleteTodo(todo)">Delete</button>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <span v-if="todoList.length == 0" class="fs-4 text-center d-block text-center text-muted">It's lonely here. Add a todo to get started.</span>
+
+            </div>
+
+        </div>
+
+        <footer class="footer text-center p-5 fixed-bottom bg-white">
+            <div class="container">
+                <button type="button" class="btn btn-lg btn-primary w-100" v-on:click="AddTodo()">Add</button>
+            </div>
+        </footer>
+
+        <div class="modal fade" id="todoModal" tabindex="-1" role="dialog" aria-labelledby="todoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="todoModalLabel">{{todoModalTitle}}</h5>
+
+                    </div>
+                    <div class="modal-body">
+        
+                            <div class="form-group">
+
+                                <div class="form-group">
+                                    <div class="mb-3">
+                                        <label for="txtTitle" class="form-label">Title</label>
+                                        <input v-model="selectedTodo.title" type="text" class="form-control" id="txtTitle" placeholder="Pickup Groceries After Work" required>
+                                        <span v-if="showTitleError" class="text-danger">This field is required.</span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="mb-3">
+                                        <label for="txtDesc" class="form-label">Description</label>
+                                        <textarea id="txtDesc" v-model="selectedTodo.description" class="span6 form-control" rows="6" placeholder="Bananas, Oranges, Bread, Eggs..." required></textarea>
+                                        <span v-if="showDescError" class="text-danger">This field is required.</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" v-on:click="SaveTodo()">Save</button>
+                            <button type="button" class="btn btn-seconday" v-on:click="CancelAdd()">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    @Html.AntiForgeryToken()
+
+</div>
+    <script>
+
+        var todoVm;
+
+        window.addEventListener('load', function() {
+
+             todoVm = new Vue({
+
+                el: '#todoList',
+
+                created: function() {
+
+                    this.token = document.getElementsByName("__RequestVerificationToken")[0].value;
+
+                },
+
+                data: {
+
+                    todoList: @Html.Raw(Model.SavedTodos.Any() ? JsonSerializer.Serialize(Model.SavedTodos, serializeOptions) : "[]"),
+
+                    displayCompleted: false,
+
+                    selectedTodo: @Html.Raw(JsonSerializer.Serialize(new Todo())),
+
+                    orgSelectedTodo: null,
+
+                    token: "",
+
+                    showTitleError: false,
+
+                    showDescError: false,
+
+                    todoModalTitle: "Add Todo"
+
+                },
+
+                methods: {
+
+                    AddTodo: function() {
+
+                        this.ResetSelectedTodo();
+
+                        this.showDescError = false;
+                        this.showTitleError = false;
+
+
+                        this.todoModalTitle = "Add Todo";
+
+                        $('#todoModal').modal('show');
+
+                    },
+
+                    CancelAdd: function() {
+
+                        $('#todoModal').modal('hide');
+
+                    },
+
+                    DeleteTodo: function(todo) {
+
+                        const requestOptions = {
+                            method: "DELETE",
+                            headers: { "RequestVerificationToken": this.token, 'Content-Type': 'application/json'},
+                            body: JSON.stringify(todo.id)
+                        }; 
+
+                        fetch("/", requestOptions)
+                        .then(response => {
+                            
+                            this.todoList.splice(this.todoList.indexOf(todo), 1);
+
+                        });
+
+                    },
+
+                    EditTodo: function(todo) {
+
+                        this.todoModalTitle = "Edit Todo";
+                        
+                        this.orgSelectedTodo = todo;
+
+                        this.selectedTodo = todo;
+
+                        $('#todoModal').modal('show');
+
+                    },
+
+                    SaveTodo: function() {
+
+                        if (this.ValidateFields()) {
+
+                            const requestOptions = {
+                                method: "POST",
+                                headers: { "RequestVerificationToken": this.token, 'Content-Type': 'application/json' },
+                                body: JSON.stringify(this.selectedTodo)
+                            };
+
+                            fetch("/", requestOptions)
+                                .then((response) => {
+                                    
+                                    if (this.orgSelectedTodo != null && this.orgSelectedTodo.id != null) {
+
+                                        this.todoList[this.todoList.indexOf(this.orgSelectedTodo)] = this.selectedTodo;
+
+                                    } else {
+                   
+                                        response.json().then((data) => {
+
+                                            this.todoList.push(data);
+
+                                        });
+
+                                    }
+
+                                    $('#todoModal').modal('hide');
+                                    this.ResetSelectedTodo();
+
+                                }
+                            );
+                        }
+
+                    },
+
+                    ResetSelectedTodo: function() {
+                    
+                        this.selectedTodo = @Html.Raw(JsonSerializer.Serialize(new Todo(), serializeOptions));
+                        this.orgSelectedTodo = null;
+
+                    },
+
+                    MarkAsComplete : function(todo) {
+                        
+                        const requestOptions = {
+                            method: "POST",
+                            headers: { "RequestVerificationToken": this.token, 'Content-Type': 'application/json'},
+                            body: JSON.stringify(todo)
+                        }; 
+
+                        fetch("/", requestOptions)
+                        .then(response => {
+                            
+                            todo.isComplete = true;
+
+                        });
+
+                    },
+
+                    ValidateFields: function() {
+
+                        var isValid = true;
+
+                        if (this.selectedTodo.title == null || this.selectedTodo.title.trim() == "") {
+
+                            this.showTitleError = true;
+
+                            isValid = false;
+
+                        } else {
+
+                            this.showTitleError = false;
+
+                        }
+
+                        if (this.selectedTodo.description == null || this.selectedTodo.description.trim() == "") {
+
+                            isValid = false;
+
+                            this.showDescError = true;
+
+                        } else {
+
+                            this.showDescError = false;
+
+                        }
+
+                        return isValid;
+
+                    }
+
+                },
+
+                computed: {
+
+                    getTodos: function() {
+
+                        if (this.displayCompleted) {
+
+                            return this.completedTodos;
+
+                        }
+                        else {
+
+                             return this.activeTodos;
+
+                        }
+
+                    },
+
+                    activeTodos: function() {
+
+                        return this.todoList.filter(function(o){return o.isComplete == false;});
+
+                    },
+
+                    completedTodos: function() {
+
+                        return this.todoList.filter(function(o){return o.isComplete == true;});
+
+                    }
+
+                }
+
+            });
+
+        });
+
+    </script>

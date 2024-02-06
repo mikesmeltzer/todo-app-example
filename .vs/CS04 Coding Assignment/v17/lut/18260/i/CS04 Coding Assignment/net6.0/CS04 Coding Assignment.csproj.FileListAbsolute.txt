@@ -1,0 +1,108 @@
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\testhost.exe
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\testhost.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\appsettings.Development.json
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\appsettings.json
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\xunit.runner.visualstudio.testadapter.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\xunit.runner.utility.netcoreapp10.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\CS04 Coding Assignment.staticwebassets.runtime.json
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\CS04 Coding Assignment.exe
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\CS04 Coding Assignment.deps.json
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\CS04 Coding Assignment.runtimeconfig.json
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\CS04 Coding Assignment.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\Castle.Core.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\Microsoft.TestPlatform.Utilities.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\Moq.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\Newtonsoft.Json.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\NuGet.Frameworks.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\xunit.abstractions.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\xunit.assert.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\xunit.core.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\xunit.execution.dotnet.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\b\Microsoft.CodeAnalysis.LiveUnitTesting.Runtime.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\i\CS04 Coding Assignment\net6.0\CS04 Coding Assignment.csproj.AssemblyReference.cache
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\i\CS04 Coding Assignment\net6.0\CS04 Coding Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\i\CS04 Coding Assignment\net6.0\CS04 Coding Assignment.AssemblyInfoInputs.cache
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\i\CS04 Coding Assignment\net6.0\CS04 Coding Assignment.AssemblyInfo.cs
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\i\CS04 Coding Assignment\net6.0\CS04 Coding Assignment.RazorAssemblyInfo.cache
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\i\CS04 Coding Assignment\net6.0\CS04 Coding Assignment.RazorAssemblyInfo.cs
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\i\CS04 Coding Assignment\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\i\CS04 Coding Assignment\net6.0\scopedcss\bundle\CS04 Coding Assignment.styles.css
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\i\CS04 Coding Assignment\net6.0\scopedcss\projectbundle\CS04 Coding Assignment.bundle.scp.css
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\i\CS04 Coding Assignment\net6.0\CS04 Coding Assignment.csproj.CopyComplete
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\i\CS04 Coding Assignment\net6.0\CS04 Coding Assignment.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\i\CS04 Coding Assignment\net6.0\refint\CS04 Coding Assignment.dll
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\i\CS04 Coding Assignment\net6.0\CS04 Coding Assignment.genruntimeconfig.cache
+C:\Users\MIKEL\source\repos\CS04 Coding Assignment\.vs\CS04 Coding Assignment\v17\lut\0\i\CS04 Coding Assignment\net6.0\ref\CS04 Coding Assignment.dll
